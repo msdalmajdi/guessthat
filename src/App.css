@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #BFC6CD;
+  color:#282c34;
+  font-family: 'Courier New', monospace;
+  font-size: 2rem;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.intro{
+  padding-bottom: 2rem;
+}
+.alarm-warning{
+  color:red;
+}
+
+
+.entry{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 2rem;
+  padding:2rem;
+  width: 50%;
+}
+
+.guess-field{
+  margin:1rem;
+  width: 50%;
+  text-align: center;
+
+  font-size: 40px;
+  font-family: 'Courier New', monospace;
+
+
+  color:black;
+  background-color: rgb(125, 209, 125);
+  border: solid 3px silver;
+  border-radius: 2rem;
+
+}
+.unlock-button{
+  margin:1rem;
+  width: 50%;
+
+  font-size: 40px;
+  font-family: 'Courier New', monospace;
+
+  color:black;
+  background-color: slategray;
+  border: transparent;
+  border-radius: 1rem;
+}
