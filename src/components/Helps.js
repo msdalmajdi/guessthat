@@ -1,6 +1,13 @@
 import { useState } from "react";
 import Hacks from "./Hacks";
-function Helps({ situation, setSituation, helpy, setHelpy, secretNumber }) {
+function Helps({
+  situation,
+  setSituation,
+  helpy,
+  setHelpy,
+  secretNumber,
+  attempts,
+}) {
   if (situation == 0) {
     // as the game continues
     return (
@@ -13,7 +20,7 @@ function Helps({ situation, setSituation, helpy, setHelpy, secretNumber }) {
             Hack
           </button>
         </div>
-        <Hacks helpy={helpy} secretNumber={secretNumber} />
+        <Hacks helpy={helpy} secretNumber={secretNumber} attempts={attempts} />
       </div>
     );
   } else {

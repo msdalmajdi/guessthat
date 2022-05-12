@@ -28,9 +28,11 @@ function App() {
         setSituation={setSituation}
         helpy={helpy}
         setHelpy={setHelpy}
+        secretNumber={secretNumber}
+        attempts={attempts}
       />
       <Keepers situation={situation} attempts={attempts} />
-      <p>{secretNumber}</p>
+      <p className="hide">{secretNumber}</p>
     </div>
   );
 }

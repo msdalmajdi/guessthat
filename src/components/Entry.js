@@ -9,7 +9,7 @@ function Entry({
   setHelpy,
 }) {
   const guess = (theGuess) => {
-    if (theGuess >= 10000 || theGuess < 0) {
+    if (theGuess >= 10000 || theGuess < 0 || theGuess == "") {
       alert("Enter a valid guess");
       return; // we are checking here if the guess is within correct requirements
     }

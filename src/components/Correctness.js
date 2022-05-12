@@ -13,12 +13,7 @@ function Correctness({ secretNumber, attempts, lastGuess }) {
   if (attempts === 5) {
     return <></>;
   } else {
-    return (
-      <p>
-        That was Wrong{attempts} ..
-        {lastGuessCorrectness(secretNumber, lastGuess)}
-      </p>
-    );
+    return <p>{lastGuessCorrectness(secretNumber, lastGuess)}</p>;
   }
 }
 export default Correctness;
