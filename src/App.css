@@ -37,6 +37,9 @@
   }
 }
 
+.hide{
+  display: none;
+}
 body{
   background-color: #BFC6CD;
   color:#282c34;
@@ -48,16 +51,25 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .intro{
-  padding-bottom: 2rem;
+  text-align: center;
+  padding: 0 1rem 2rem 1rem;
 }
 .alarm-warning{
   color:red;
 }
-
+.money-lightup{
+  color:green;
+  font-size: larger;
+}
+.prison-img{
+  width:50%;
+  border: black solid 2px;
+  border-radius: 1%;
+}
 
 .entry{
   display: flex;
@@ -65,8 +77,8 @@ body{
   align-items: center;
   flex-direction: column;
 
-  margin: 2rem;
-  padding:2rem;
+  margin: -1rem 0 0 0 ;
+  padding:2rem 2rem 0 2rem;
   width: 50%;
 }
 
@@ -96,4 +108,66 @@ body{
   background-color: slategray;
   border: transparent;
   border-radius: 1rem;
+}
+
+.helps{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  
+  padding:0 1rem 1rem 1rem;
+}
+.help-btns{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width:40rem;
+}
+
+.hacks-nums{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.hack-number{
+  text-align: center;
+  margin:1rem;
+  background-color: rgb(125, 209, 125);
+  border: 3px solid black;
+  width:8rem;
+}
+.surrender-btn{
+  margin:1rem;
+  width: 50%;
+
+  font-size: 40px;
+  font-family: 'Courier New', monospace;
+
+  color:black;
+  background-color: white;
+  border: solid 1px black;
+}
+.hack-btn{
+  margin:1rem;
+  width: 50%;
+
+  font-size: 40px;
+  font-family: 'Courier New', monospace;
+
+  color:black;
+  background-color: rgba(0, 0, 255, 0.274);
+  border: solid 2px black;
+
+}
+
+.keepers{
+
+}
+.attempts-span{
+  font-size: larger;
 }
