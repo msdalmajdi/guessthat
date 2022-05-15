@@ -50,6 +50,11 @@ function Hacks({ helpy, secretNumber, attempts }) {
     for (let i = 0; i < options; i++) {
       if (i === 0) {
         hacksArray.push(secretNumber);
+        continue;
+      }
+      if (i % 2 !== 0) {
+        hacksArray.push(random(0, 10000));
+        continue;
       }
       hacksArray.push(random(minG, maxG));
     }

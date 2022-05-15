@@ -16,6 +16,13 @@ function Intro({ situation }) {
         <h3>
           You are now <span className="money-lightup">$1,000,000</span> richer!
         </h3>
+        <img className="prison-img" src="./moneywin.jpg" alt="your place"></img>
+        <button
+          className="unlock-button"
+          onClick={() => window.location.reload(false)}
+        >
+          Play Again
+        </button>
       </div>
     );
   } else if (situation == 2) {
@@ -24,6 +31,12 @@ function Intro({ situation }) {
         <h2>This is so sad</h2>
         <h3>Welcome to prison, you should've been a better thief</h3>
         <img className="prison-img" src="./prison.jpg" alt="your place"></img>
+        <button
+          className="unlock-button"
+          onClick={() => window.location.reload(false)}
+        >
+          Play Again
+        </button>
       </div>
     );
   }

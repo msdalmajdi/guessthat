@@ -6,7 +6,7 @@ import Keepers from "./components/Keepers";
 import { useState } from "react";
 
 const secretNumber = Math.floor(Math.random() * 10000);
-
+console.log(secretNumber);
 function App() {
   const [situation, setSituation] = useState(0); // 0 playing, 1 won, 2 lose
   const [attempts, setAttempts] = useState(5);
